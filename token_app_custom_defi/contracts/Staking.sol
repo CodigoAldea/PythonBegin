@@ -2,6 +2,8 @@
 pragma solidity ^0.8.0;
 import "./Token.sol";
 
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 contract Staking {
     
     Token public stakingToken;

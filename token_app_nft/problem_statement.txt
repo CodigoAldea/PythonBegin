@@ -1,0 +1,9 @@
+Build a basic NFT (ERC-721) application where users can mint unique digital assets and view ownership.
+
+The system should allow users to:
+
+    - Mint a unique NFT
+    - Each NFT must have a unique token ID
+    - Store basic metadata (like a URI or name)
+    - View which address owns which NFT
+    - Interact with the contract using Flask APIs
